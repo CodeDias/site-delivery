@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - DiasFood</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <a href="index.html"><h1>DiasFood.</h1></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="icon"></i>Painel Principal</a></li>
+                    <li><a href="seuspedidos.html"><i class="icon"></i>Seus Pedidos</a></li>
+                    <li><a href="historico.html"><i class="icon"></i>Histórico</a></li>
+                    <li><a href="cadastro.html"><i class="icon"></i>Cadastro</a></li>
+                    <li><a href="contato.html"><i class="icon"></i>Contato</a></li>
+                    <li><a href="sobrenos.html"><i class="icon"></i>Sobre Nós</a></li>
+                </ul>
+            </nav>
+            <div class="upgrade-box">
+                <img src="imagens/banner2.png" alt="">
+            </div>
+        </aside>
+
+        <main class="content">
+            <section class="checkout-section">
+                <h1>Checkout</h1>
+                <div class="order-review">
+                    <h2>Revisão do Pedido</h2>
+                    <table class="order-table">
+                        <thead>
+                            <tr>
+                                <th>Produto</th>
+                                <th>Quantidade</th>
+                                <th>Preço</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Pizza Pepperoni</td>
+                                <td>2</td>
+                                <td>R$35,90</td>
+                                <td>R$71,80</td>
+                            </tr>
+                            <tr>
+                                <td>Burguer Furioso</td>
+                                <td>1</td>
+                                <td>R$19,90</td>
+                                <td>R$19,90</td>
+                            </tr>
+                            <tr>
+                                <td>Salada Caesar</td>
+                                <td>3</td>
+                                <td>R$15,00</td>
+                                <td>R$45,00</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Subtotal</td>
+                                <td>R$136,70</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">Entrega</td>
+                                <td>R$10,00</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3"><strong>Total</strong></td>
+                                <td><strong>R$146,70</strong></td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+                <div class="payment-details">
+                    <h2>Detalhes do Pagamento</h2>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="card-name">Nome no Cartão</label>
+                            <input type="text" id="card-name" name="card-name" placeholder="Nome completo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="card-number">Número do Cartão</label>
+                            <input type="text" id="card-number" name="card-number" placeholder="Número do cartão" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="card-expiry">Validade</label>
+                            <input type="text" id="card-expiry" name="card-expiry" placeholder="MM/AA" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="card-cvc">CVC</label>
+                            <input type="text" id="card-cvc" name="card-cvc" placeholder="Código de Segurança" required>
+                        </div>
+                        <button type="submit" class="submit-button">Confirmar Pagamento</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

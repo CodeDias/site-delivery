@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiasFood</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <a href="index.html"><h1>DiasFood.</h1></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="active"><i class="icon"></i>Painel Principal</a></li>
+                    <li><a href="seuspedidos.html"><i class="icon"></i>Seus Pedidos</a></li>
+                    <li><a href="historico.html"><i class="icon"></i>Histórico</a></li>
+                    <li><a href="cadastro.html"><i class="icon"></i>Cadastro</a></li>
+                    <li><a href="contato.html"><i class="icon"></i>Contato</a></li>
+                    <li><a href="sobrenos.html"><i class="icon"></i>Sobre Nós</a></li>
+                </ul>
+            </nav>
+            <div class="upgrade-box">
+                <img src="imagens/banner2.png" alt="">
+            </div>
+        </aside>
+
+        <main class="content">
+            <header class="header">
+                <div class="welcome-message">
+                    <h2>Olá, Lucas</h2>
+                </div>
+                <div class="search-bar">
+                    <button><i class="search-icon"><img src="imagens/buscar-icon.png" alt=""></i></button>
+                    <input type="text" placeholder="O que você quer comer hoje...">
+                    
+                </div>
+            </header>
+
+            <section class="voucher-section">
+                    <img src="imagens/banner.png" alt="Voucher">
+            </section>
+
+            <section class="category-section">
+                <h3>Categoria</h3>
+                <div class="categories">
+                    <div class="category"><a href="padaria.html"><img src="imagens/padaria.png" alt="Padaria"><p>Padaria</p></a></div>
+                    <div class="category"><a href="hamburguer.html"><img src="imagens/burguer.png" alt="Hamburguer"><p>Hamburguer</p></a></div>
+                    <div class="category"><a href="bebidas.html"><img src="imagens/bebidas.png" alt="Bebidas"><p>Bebidas</p></a></div>
+                    <div class="category"><a href="frango.html"><img src="imagens/chicken.png" alt="Frango"><p>Frango</p></a></div>
+                    <div class="category"><a href="pizza.html"><img src="imagens/pizza.png" alt="Pizza"><p>Pizza</p></a></div>
+                    <div class="category"><a href="peixe.html"><img src="imagens/peixe.png" alt="Peixes"><p>Peixes</p></a></div>
+                </div>
+            </section>
+
+            <section class="popular-dishes-section">
+                <div class="section-header">
+                    <h3>Pratos Populares</h3>
+                    <a href="#">Ver tudo</a>
+                </div>
+                <div class="dishes">
+                    <div class="dish">
+                        <div class="badge">15% Off</div>
+                        <img src="imagens/fish-burguer.png" alt="Fish Burguer">
+                        <div class="dish-info">
+                            <p>Fish Burguer</p>
+                            <p class="price">R$5.59</p>
+                        </div>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                    <div class="dish">
+                        <div class="badge">15% Off</div>
+                        <img src="imagens/furioso-burguer.png" alt="Furioso Burguer">
+                        <div class="dish-info">
+                            <p>Furioso Burguer</p>
+                            <p class="price">R$5.59</p>
+                        </div>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                    <div class="dish">
+                        <div class="badge">15% Off</div>
+                        <img src="imagens/cheese-burguer.png" alt="Cheese Burguer">
+                        <div class="dish-info">
+                            <p>Cheese Burguer</p>
+                            <p class="price">R$5.59</p>
+                        </div>
+                        <button class="add-to-cart">+</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="recent-orders-section">
+                <div class="section-header">
+                    <h3>Pedido Recentemente</h3>
+                    <a href="#">Ver tudo</a>
+                </div>
+                <div class="orders">
+                    <div class="order">
+                        <img src="imagens/pepperoni-pizza.png" alt="Pizza Pepperoni">
+                        <div class="order-info">
+                            <p>Pizza Pepperoni</p>
+                            <p class="price">R$5.59</p>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <img src="imagens/lamen-japones.png" alt="Lamen Japonês">
+                        <div class="order-info">
+                            <p>Lamen Japonês</p>
+                            <p class="price">R$5.59</p>
+                        </div>
+                    </div>
+                    <div class="order">
+                        <img src="imagens/arroz-frito.png" alt="Arroz Frito">
+                        <div class="order-info">
+                            <p>Arroz Frito</p>
+                            <p class="price">R$5.59</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <aside class="order-summary">
+            <div class="balance">
+
+                
+                <h4 style="text-align: left; padding-bottom: 40px;">Seu Saldo:</h4>
+                <p class="amount">R$120.00</p>
+                <div class="saldo-balance">
+                <button class="deposit">Depósito</button>
+                <button class="deposit">Saque</button>
+                </div>
+            </div>
+            <div class="address">
+                <div style="display: flex; align-items: baseline; flex-wrap: wrap;">
+                <h4 style="padding-right: 130px;">Seu Endereço</h4>
+                <img src="imagens/local-icon.png" alt="" style="padding-right: 9px;">
+                <p style="padding-right: 60px; font-weight: bold;">Rua Feliz, 123</p>
+                <button>Mudar</button>
+                <p style="padding-top: 10px; color: #A098AE;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+                <button class="second-button">Detalhes</button>
+                <button class="second-button">Notas</button>
+            </div>
+            </div>
+            
+            <div class="order-menu">
+                <h4>Menu de pedidos</h4>
+                <ul>
+                    
+                    <li>Pizza Pepperoni <span class="price">R$5.59</span></li>
+                    <li class="quantidade">1x</li>
+                    <li>Cheese Burger <span class="price">R$5.59</span></li>
+                    <li class="quantidade">1x</li>
+                    <li>Pizza Vegana <span class="price">R$5.59</span></li>
+                    <li class="quantidade">1x</li>
+                </ul>
+
+                <hr style="color: #A098AE; opacity: 30%;">
+                <div class="total">
+                    <p style="color: #A098AE;">Service: <span style="color: #000; padding-left: 128px;" class="price">+R$1.00</span></p>
+                    <p style="color: #A098AE;">Total: <span style="color: #000; padding-left: 153px;" class="price">R$17.77</span></p>
+                </div>
+                
+                <a href="checkout.html"><button class="checkout">Checkout</button></a>
+            </div>
+        </aside>
+    </div>
+</body>
+</html>
